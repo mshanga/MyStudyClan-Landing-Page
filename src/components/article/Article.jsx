@@ -2,11 +2,11 @@ import React from 'react';
 import './article.css';
 
 const Article = ({ imgUrl, date, text }) => (
-  <div className="gundua__blog-container_article">
-    <div className="gundua__blog-container_article-image">
+  <div className="MyStudyClan__blog-container_article">
+    <div className="MyStudyClan__blog-container_article-image">
       <img src={imgUrl} alt="blog_image" />
     </div>
-    <div className="gundua__blog-container_article-content">
+    <div className="MyStudyClan__blog-container_article-content">
       <div>
         <p>{date}</p>
         <h3>{text}</h3>

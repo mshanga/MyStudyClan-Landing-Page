@@ -1,11 +1,11 @@
-.gundua__features {
+.MyStudyClan__features {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
-.gundua__features-heading {
+.MyStudyClan__features-heading {
     flex: 1;
     display: flex;
     justify-content: flex-start;
@@ -16,14 +16,14 @@
     margin-right: 5rem;
 }
 
-.gundua__features-heading h1 {
+.MyStudyClan__features-heading h1 {
     font-size: 34px;
     line-height: 45px;
     font-weight: 800;
     font-family: var(--font-family);
 }
 
-.gundua__features-heading p {
+.MyStudyClan__features-heading p {
     color: var(--color-subtext);
     font-size: 16px;
     line-height: 30px;
@@ -33,7 +33,7 @@
     margin-top: 2rem;
 }
 
-.gundua__features-container {
+.MyStudyClan__features-container {
     flex: 1.5;
     display: flex;
     justify-content: flex-start;
@@ -42,18 +42,18 @@
 }
 
 @media screen and (max-width: 990px) {
-    .gundua__features {
+    .MyStudyClan__features {
         flex-direction: column;
     }
 
-    .gundua__features-heading {
+    .MyStudyClan__features-heading {
         margin: 0 0 2rem 0;
     }
 }
 
 
 @media screen and (max-width: 550px) {
-    .gundua__features-heading h1 {
+    .MyStudyClan__features-heading h1 {
         font-size: 28px;
         line-height: 38px;
     }

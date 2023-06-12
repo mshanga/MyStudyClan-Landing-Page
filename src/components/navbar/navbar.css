@@ -1,11 +1,11 @@
-.gundua__navbar {
+.MyStudyClan__navbar {
     display: flex;
     justify-self: space-between;
     align-items: center;
     padding: 2rem 6rem 0 6rem;
 }
 
-.gundua__navbar-links {
+.MyStudyClan__navbar-links {
     flex: 1;
     display: flex;
     justify-content: flex-start;
@@ -13,29 +13,29 @@
 }
 
 
-.gundua__navbar-links_logo {
+.MyStudyClan__navbar-links_logo {
     margin-right: 2rem;
 }
 
-.gundua__navbar-links_logo img {
+.MyStudyClan__navbar-links_logo img {
     width: 90px;
     height: 30px;
 }
 
-.gundua__navbar-links_container {
+.MyStudyClan__navbar-links_container {
     display: flex;
     flex-direction: row;
 }
 
-.gundua__navbar-sign {
+.MyStudyClan__navbar-sign {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.gundua__navbar-links_container p,
-.gundua__navbar-sign p,
-.gundua__navbar-menu_container p {
+.MyStudyClan__navbar-links_container p,
+.MyStudyClan__navbar-sign p,
+.MyStudyClan__navbar-menu_container p {
     color: #fff;
     font-family: var(--font-family);
     font-weight: 500;
@@ -47,8 +47,8 @@
     cursor: pointer;
 }
 
-.gundua__navbar-sign button,
-.gundua__navbar-menu_container button {
+.MyStudyClan__navbar-sign button,
+.MyStudyClan__navbar-menu_container button {
     padding: 0.5rem 1rem;
     color: #fff;
     background: #FF4820;
@@ -62,18 +62,18 @@
     border-radius: 5px;
 }
 
-.gundua__navbar-menu {
+.MyStudyClan__navbar-menu {
     margin-left: 1rem;
 
     display: none;
     position: relative;
 }
 
-.gundua__navbar-menu svg {
+.MyStudyClan__navbar-menu svg {
     cursor: pointer;
 }
 
-.gundua__navbar-menu_container {
+.MyStudyClan__navbar-menu_container {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -91,44 +91,44 @@
     box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
 }
 
-.gundua__navbar-menu_container p {
+.MyStudyClan__navbar-menu_container p {
     margin: 1rem 0;
 }
 
-.gundua__navbar-menu_container-links-sign {
+.MyStudyClan__navbar-menu_container-links-sign {
     display: none;
 }
 
 @media screen and (max-width: 1050px) {
-    .gundua__navbar-links_container {
+    .MyStudyClan__navbar-links_container {
         display: none;
     }
 
-    .gundua__navbar-menu {
+    .MyStudyClan__navbar-menu {
         display: flex;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .gundua__navbar {
+    .MyStudyClan__navbar {
         padding: 2rem 4rem;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .gundua__navbar {
+    .MyStudyClan__navbar {
         padding: 2rem;
     }
 
-    .gundua__navbar-sign {
+    .MyStudyClan__navbar-sign {
         display: none;
     }
 
-    .gundua__navbar-menu_container {
+    .MyStudyClan__navbar-menu_container {
         top: 20px;
     }
 
-    .gundua__navbar-menu_container-links-sign {
+    .MyStudyClan__navbar-menu_container-links-sign {
         display: block;
     }
 }

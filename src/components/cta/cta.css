@@ -1,4 +1,4 @@
-.gundua__cta {
+.MyStudyClan__cta {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,7 +10,7 @@
     background: var(--gradient-bar)
 }
 
-.gundua__cta-content {
+.MyStudyClan__cta-content {
     display: flex;
     flex-direction: column;
 
@@ -18,21 +18,21 @@
     color: #fff;
 }
 
-.gundua__cta-content p {
+.MyStudyClan__cta-content p {
     font-family: var(--font-family);
     font-size: 12px;
     line-height: 30px;
     font-weight: 500;
 }
 
-.gundua__cta-content h3 {
+.MyStudyClan__cta-content h3 {
     font-family: var(--font-family);
     font-size: 20px;
     line-height: 40px;
     font-weight: 800;
 }
 
-.gundua__cta-btn {
+.MyStudyClan__cta-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +40,7 @@
     margin-left: 2rem;
 }
 
-.gundua__cta-btn button {
+.MyStudyClan__cta-btn button {
     background: #000;
     color: #fff;
     font-family: var(--font-family);
@@ -57,27 +57,27 @@
 }
 
 @media screen and (max-width: 650px) {
-    .gundua__cta {
+    .MyStudyClan__cta {
         flex-direction: column;
     }
 
-    .gundua__cta-btn {
+    .MyStudyClan__cta-btn {
         margin: 2rem 0 0;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .gundua__cta {
+    .MyStudyClan__cta {
         flex-direction: column;
         margin: 4rem 2rem;
     }
 
-    .gundua__cta-content h3 {
+    .MyStudyClan__cta-content h3 {
         font-size: 18px;
         line-height: 32px;
     }
 
-    .gundua__cta-btn button {
+    .MyStudyClan__cta-btn button {
         font-size: 14px;
         line-height: 28px;
     }
