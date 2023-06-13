@@ -15,11 +15,9 @@ const Navbar = () => {
           <img src={logo} />
         </div>
         <div className="MyStudyClan__navbar-links_container">
-          <p><a href="#home">Home</a></p>
-          <p><a href="#wMyStudyClan">About</a></p>
-          {/* <p><a href="#possibility">Case Studies</a></p> */}
+          <p><a href="#home">Home</a></p>          
           <p><a href="#features">Features</a></p>
-          <p><a href="#blog">Library</a></p>
+          <p><a href="#wMyStudyClan">About</a></p>
         </div>
       </div>
       <div className="MyStudyClan__navbar-sign">
@@ -34,10 +32,8 @@ const Navbar = () => {
         <div className="MyStudyClan__navbar-menu_container scale-up-center">
           <div className="MyStudyClan__navbar-menu_container-links">
           <p><a href="#home">Home</a></p>
-          <p><a href="#wMyStudyClan">About</a></p>
-          {/* <p><a href="#possibility">Case Studies</a></p> */}
           <p><a href="#features">Features</a></p>
-          <p><a href="#blog">Library</a></p>
+          <p><a href="#wMyStudyClan">About</a></p>          
           </div>
           <div className="MyStudyClan__navbar-menu_container-links-sign">
             <p>Sign in</p>

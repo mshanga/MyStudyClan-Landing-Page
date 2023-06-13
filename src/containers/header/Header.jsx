@@ -6,8 +6,9 @@ import './header.css';
 const Header = () => (
   <div className="MyStudyClan__header section__padding" id="home">
     <div className="MyStudyClan__header-content">
-      <h1 className="gradient__text">Let&apos;s Ease Your Research with MyStudyClan</h1>
-      <p>Streamline your research process with MyStudyClan - Our platform can help you find the information you need quickly and easily.</p>
+
+      <h1 className="gradient__text">Revolutionizing the Learning Experience</h1>
+      <p>We are building a community of software developers to share knowledge and learn from each other </p>
 
       <div className="MyStudyClan__header-content__input">
         <input type="email" placeholder="Your Email Address" />
